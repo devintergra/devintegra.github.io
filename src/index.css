@@ -3,15 +3,31 @@ body, html {
     width: 100%;
 }
 
-.header {
-    height: 1.5cm;
+.header1 {
+    height: 10%;
     text-align: center;
     font-size: 50px;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    position:fixed;
+    width: 100%;
+    align-self:flex-start;
 }
 
-.landing-container {
+.page {
+    font-size: medium;
+    width: 100%;
+    align-self: flex-end;
+}
+
+.container {
     height: 100%;
-    background-image:url("src/imageone");
+    width: 100%;
+}
+
+.homecontainer {
+    background-image: url("src/imageone.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
