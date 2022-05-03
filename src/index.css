@@ -1,3 +1,8 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
 .header {
     height: 1.5cm;
     text-align: center;
@@ -6,4 +11,7 @@
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
-.project cont
+.project-container {
+    height: 100%;
+    background-image:url("src/imageone");
+}
